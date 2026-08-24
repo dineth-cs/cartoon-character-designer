@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ChevronLeftIcon, PaletteIcon, ShieldCheckIcon, UserCogIcon } from 'lucide-react';

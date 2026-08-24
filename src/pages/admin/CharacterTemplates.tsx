@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ArchiveIcon, LayoutTemplateIcon, PlusIcon, StarIcon } from 'lucide-react';
 import { PageHeader } from '../../components/layout/PageHeader';
 import { GlassCard } from '../../components/ui/GlassCard';

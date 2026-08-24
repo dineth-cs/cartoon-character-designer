@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   FilterIcon,
@@ -21,7 +21,7 @@ import { CharacterCard } from '../components/CharacterCard';
 import { CharacterThumb } from '../components/CharacterThumb';
 import { useApp } from '../contexts/AppContext';
 import { Character, CharacterStatus, CharacterType } from '../types/character';
-import { useScreenInit } from '../useScreenInit.js';
+import { useScreenInit } from '../useScreenInit';
 
 type SortKey = 'recent' | 'name' | 'usage';
 

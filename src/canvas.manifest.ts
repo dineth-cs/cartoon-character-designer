@@ -41,50 +41,50 @@ export const manifest = {
     sec_oz2kfg: { name: "Admin Panel", x: 0, y: 13860, width: 11320, height: 1682 }
   },
   layers: [
-  { kind: "section", id: "sec_h7ldma", children: [
-    { kind: "screen", id: "scr_0nosa6" },
-    { kind: "screen", id: "scr_7d0s5k" },
-    { kind: "screen", id: "scr_ezvfer" },
-    { kind: "screen", id: "scr_c5bbxa" }]
-  },
-  { kind: "section", id: "sec_99wem5", children: [
-    { kind: "screen", id: "scr_10salx" }]
-  },
-  { kind: "section", id: "sec_uqv9nn", children: [
-    { kind: "screen", id: "scr_52vmxx" },
-    { kind: "screen", id: "scr_yvqqil" },
-    { kind: "screen", id: "scr_w1rrky" }]
-  },
-  { kind: "section", id: "sec_pemdf2", children: [
-    { kind: "screen", id: "scr_fni23m" },
-    { kind: "screen", id: "scr_8bs3q9" },
-    { kind: "screen", id: "scr_ubqky6" }]
-  },
-  { kind: "section", id: "sec_qpypwe", children: [
-    { kind: "screen", id: "scr_erulv5" },
-    { kind: "screen", id: "scr_zzo7vp" },
-    { kind: "screen", id: "scr_7i0oes" }]
-  },
-  { kind: "section", id: "sec_fwr4q2", children: [
-    { kind: "screen", id: "scr_1vieuk" }]
-  },
-  { kind: "section", id: "sec_k017nt", children: [
-    { kind: "screen", id: "scr_blfo0i" },
-    { kind: "screen", id: "scr_v10ti5" },
-    { kind: "screen", id: "scr_zwax5u" },
-    { kind: "screen", id: "scr_64q2id" },
-    { kind: "screen", id: "scr_2lxzvq" },
-    { kind: "screen", id: "scr_ell4r6" }]
-  },
-  { kind: "section", id: "sec_oz2kfg", children: [
-    { kind: "screen", id: "scr_mvcrwb" },
-    { kind: "screen", id: "scr_7ftjlq" },
-    { kind: "screen", id: "scr_95hsf7" },
-    { kind: "screen", id: "scr_8tfn04" },
-    { kind: "screen", id: "scr_6iou3o" },
-    { kind: "screen", id: "scr_a1wnil" },
-    { kind: "screen", id: "scr_ld8juj" },
-    { kind: "screen", id: "scr_aj1815" }]
-  }]
-
+    { kind: "section", id: "sec_h7ldma", children: [
+      { kind: "screen", id: "scr_0nosa6" },
+      { kind: "screen", id: "scr_7d0s5k" },
+      { kind: "screen", id: "scr_ezvfer" },
+      { kind: "screen", id: "scr_c5bbxa" }]
+    },
+    { kind: "section", id: "sec_99wem5", children: [
+      { kind: "screen", id: "scr_10salx" }]
+    },
+    { kind: "section", id: "sec_uqv9nn", children: [
+      { kind: "screen", id: "scr_52vmxx" },
+      { kind: "screen", id: "scr_yvqqil" },
+      { kind: "screen", id: "scr_w1rrky" }]
+    },
+    { kind: "section", id: "sec_pemdf2", children: [
+      { kind: "screen", id: "scr_fni23m" },
+      { kind: "screen", id: "scr_8bs3q9" },
+      { kind: "screen", id: "scr_ubqky6" }]
+    },
+    { kind: "section", id: "sec_qpypwe", children: [
+      { kind: "screen", id: "scr_erulv5" },
+      { kind: "screen", id: "scr_zzo7vp" },
+      { kind: "screen", id: "scr_7i0oes" }]
+    },
+    { kind: "section", id: "sec_fwr4q2", children: [
+      { kind: "screen", id: "scr_1vieuk" }]
+    },
+    { kind: "section", id: "sec_k017nt", children: [
+      { kind: "screen", id: "scr_blfo0i" },
+      { kind: "screen", id: "scr_v10ti5" },
+      { kind: "screen", id: "scr_zwax5u" },
+      { kind: "screen", id: "scr_64q2id" },
+      { kind: "screen", id: "scr_2lxzvq" },
+      { kind: "screen", id: "scr_ell4r6" }]
+    },
+    { kind: "section", id: "sec_oz2kfg", children: [
+      { kind: "screen", id: "scr_mvcrwb" },
+      { kind: "screen", id: "scr_7ftjlq" },
+      { kind: "screen", id: "scr_95hsf7" },
+      { kind: "screen", id: "scr_8tfn04" },
+      { kind: "screen", id: "scr_6iou3o" },
+      { kind: "screen", id: "scr_a1wnil" },
+      { kind: "screen", id: "scr_ld8juj" },
+      { kind: "screen", id: "scr_aj1815" }]
+    }
+  ]
 };

@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { AppProvider } from './contexts/AppContext';
 import { AppShell } from './components/layout/AppShell';

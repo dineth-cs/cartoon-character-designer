@@ -1,4 +1,3 @@
-import React from 'react';
 import { CheckIcon, PipetteIcon } from 'lucide-react';
 import { PRESET_COLORS } from '../../types/character';
 

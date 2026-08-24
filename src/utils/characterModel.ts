@@ -301,7 +301,7 @@ export function buildCharacter(config: CharacterConfig, mode: RenderMode): Chara
       [0, headR * 1.24, 0]
     );
   } else if (config.accessory === 'glasses') {
-    ;[-1, 1].forEach((side) => {
+    [-1, 1].forEach((side) => {
       add(
         headCtx,
         () => new THREE.TorusGeometry(eyeR * 1.9, eyeR * 0.18, 10, 28),
@@ -347,7 +347,7 @@ export function buildCharacter(config: CharacterConfig, mode: RenderMode): Chara
 }
 
 export function disposeObject(obj: THREE.Object3D) {
-  obj.traverse((child) => {
+  obj.traverse((child: THREE.Object3D) => {
     const mesh = child as THREE.Mesh;
     if (mesh.geometry) mesh.geometry.dispose();
     const mat = mesh.material as THREE.Material | THREE.Material[] | undefined;

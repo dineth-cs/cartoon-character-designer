@@ -1,4 +1,3 @@
-import React from 'react';
 import { CharacterConfig } from '../types/character';
 
 interface Props {

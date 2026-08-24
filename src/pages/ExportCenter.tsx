@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react';
+import { useCallback, useRef, useState } from 'react';
 import { CheckCircle2Icon, DownloadIcon, FileImageIcon, ImageIcon, InfoIcon } from 'lucide-react';
 import { PageHeader } from '../components/layout/PageHeader';
 import { GlassCard } from '../components/ui/GlassCard';

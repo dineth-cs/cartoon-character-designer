@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BuildingIcon, KeyRoundIcon, SaveIcon, ShieldIcon } from 'lucide-react';
 import { PageHeader } from '../../components/layout/PageHeader';
 import { GlassCard } from '../../components/ui/GlassCard';
@@ -8,7 +8,7 @@ import { TextField } from '../../components/ui/TextField';
 import { ToggleRow } from '../../components/ui/ToggleRow';
 import { SegmentedTabs } from '../../components/ui/SegmentedTabs';
 import { useApp } from '../../contexts/AppContext';
-import { useScreenInit } from '../../useScreenInit.js';
+import { useScreenInit } from '../../useScreenInit';
 
 type Tab = 'organisation' | 'governance' | 'integrations';
 

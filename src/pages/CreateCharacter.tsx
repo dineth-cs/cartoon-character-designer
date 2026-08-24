@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { Fragment, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import {
@@ -22,7 +22,7 @@ import { ColorPicker } from '../components/ui/ColorPicker';
 import { ViewportCard } from '../components/three/ViewportCard';
 import { useApp } from '../contexts/AppContext';
 import { BodyShape, CharacterType, DEFAULT_CONFIG } from '../types/character';
-import { useScreenInit } from '../useScreenInit.js';
+import { useScreenInit } from '../useScreenInit';
 
 const STEPS = [
 { title: 'Choose a type', hint: 'Animal, plant or human base' },
@@ -157,10 +157,10 @@ export function CreateCharacter() {
                   ['Body colour', config.bodyColor],
                   ['Head colour', config.headColor]].
                   map(([label, value]) =>
-                  <React.Fragment key={label}>
+                  <Fragment key={label}>
                         <dt className="text-slate-500">{label}</dt>
                         <dd className="font-medium capitalize text-slate-800">{value}</dd>
-                      </React.Fragment>
+                      </Fragment>
                   )}
                   </dl>
                 </div>

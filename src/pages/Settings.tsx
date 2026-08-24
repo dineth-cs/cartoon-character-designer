@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { AccessibilityIcon, BellIcon, PaletteIcon, SaveIcon, ShieldIcon } from 'lucide-react';
 import { PageHeader } from '../components/layout/PageHeader';
 import { GlassCard } from '../components/ui/GlassCard';
@@ -7,7 +7,7 @@ import { SegmentedTabs } from '../components/ui/SegmentedTabs';
 import { ToggleRow } from '../components/ui/ToggleRow';
 import { LabeledSlider } from '../components/ui/LabeledSlider';
 import { useApp } from '../contexts/AppContext';
-import { useScreenInit } from '../useScreenInit.js';
+import { useScreenInit } from '../useScreenInit';
 
 type Tab = 'workspace' | 'notifications' | 'accessibility' | 'security';
 
